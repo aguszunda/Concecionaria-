@@ -1,0 +1,21 @@
+Una concesionaria de automotores necesita mantener los datos de los vehículos que
+tiene a la venta, y en base a ella obtener cierta información estadística. Se sabe que
+todo vehículo tiene una marca, un año de fabricación (o “modelo”) y un precio de
+venta. A su vez, existen distintos tipos de vehículos: para los vehículos de carga,
+además de los datos anteriores, se debe registrar su capacidad de carga (en toneladas)
+que puede llevar. Para los automóviles particulares, debe registrarse la cantidad de
+puertas. Todos los vehículos, en principio, deben poder actualizar su precio de venta
+mediante un método tal que simplemente sume un 5% al precio anterior. Pero para los
+vehículos particulares, el nuevo precio debe surgir de sumar un 3% al anterior, más
+una suma fija de 400 pesos si el vehículo es modelo posterior al año 2005. Diseñe las
+clases adecuadas para manejar esta información, y luego desarrolle un programa
+controlado por menú de opciones, que permita:
+? Cargar un arreglo de objetos que representen distintos tipos de vehículos.
+? Mostrar el arreglo.
+? Actualizar el precio de todos los vehículos.
+Lección 15 – POO 8
+? Buscar un vehículo de carga cuya capacidad sea mayor a cierto valor
+cargado por teclado. Muestre sus datos o informe que no hay ninguno. Es
+suficiente con mostrar un solo vehículo que cumpla lo pedido.
+? Determinar cuántos vehículos hay de la misma clase que otro vehículo
+tomado como parámetro.
