@@ -2,7 +2,7 @@
 package concesionaria;
 
 
-public class Vehiculo
+public abstract class Vehiculo
 {
     private String marca;
     private int modelo;
@@ -33,10 +33,11 @@ public class Vehiculo
     public void setModelo(int modelo) {
         this.modelo = modelo;
     }
-//este metodo nos permite actualizar nuestro precio
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+//este metodo nos permite actualizar nuestro precio
+    public abstract void actualizarPrecio();
 
     public String toString() {
         return "Vehiculo{" + "marca=" + marca + ", modelo=" + modelo + ", precio=" + precio + "}\n";
